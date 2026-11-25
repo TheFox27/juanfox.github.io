@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="estilos.css">
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600&famnily=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+
+
+<header class="encabezado-bienvenida">
+    <h1>BIENVENIDA MIMOL AL FORMULARIO DE TU PROXIMO INGENIERO</h1>
+
+     <h3>Esto es simplemente una practica mimol, si te equivocas no pasa nada, no afectara nuestra relacion. 
+     Me ayudaras mucho con esta practica personal quiero ver como funciona el codigo que estoy programando, tu solo veras lo que quiero que veas que es lo que ya estas viendo en tu pantallita.</h3>
+</header>
+<!-- esto por ejemplo no lo vez -->
+
+
+<div class="aviso-formulario">
+    <h1><em> A CONTINUACION EL FORMULARIO TANTO ESPERADO...</h1></em>
+</div>
+
+
+<form>
+
+<section class="formulario">
+
+<h1><em> Sobre mi </h1></em>
+
+<label for="Name">¿Cuales son mis nombres? </label>
+<input class="form-control" type="text">
+
+
+<label for="lastname">¿Cuales son mis apellidos?</label>
+<input class="form-control" type="text">
+
+
+<label for="old">¿Cual es mi edad?</label>
+<input class="form-control" type="number">
+
+
+<label for="date">¿Cual es mi fecha de nacimiento?</label>
+<input class="form-control" type="date">
+
+
+<label for="text">¿Cuales son mis hobbies?</label>
+<input class="form-control" type="text">
+
+
+<h3>¿Cual es mi color favorito?</h3>
+<div class="opciones-horizontales">
+
+    <label><input type="radio" id="color" name="color" value="Rosa"> Rosa</label>
+    <label><input type="radio" id="color" name="color" value="Rojo"> Rojo</label>
+    <label><input type="radio" id="color" name="color" value="Azul"> Azul</label>       
+</div>
+
+
+<h3>¿Cual es mi vehiculo favorito?</h3>
+<div class="opciones-horizontales">
+  
+    <label><input type="radio" id="vehicle" name="vehicle" value="Automovil"> Automovil</label>
+   <label><input type="radio" id="vehicle" name="vehicle" value="Camion"> Camion</label>
+   <label><input type="radio" id="vehicle" name="vehicle" value="Motocicleta"> Motocicleta</label>  
+</div>
+
+
+<h3>¿Comida que no me cansaria de comer?</h3>
+<div class="opciones-horizontales">
+
+    <label><input type="radio" id="food" name="food" value="Chicharrones"> Chicharrones</label>
+    <label><input type="radio" id="food" name="food" value="Hamburguesa"> Hamburguesa</label>
+    <label><input type="radio" id="food" name="food" value="Tacos"> Tacos</label>   
+</div>
+
+
+<h3>¿Cual fue mi bebida energetica favorita?</h3>
+<div class="opciones-horizontales">
+
+    <label><input type="radio" id="drink" name="drink" value="Monster"> Monster</label>
+    <label><input type="radio" id="drink" name="drink" value="Volt"> Volt</label>
+    <label><input type="radio" id="drink" name="drink" value="Amper"> Amper</label>
+</div>
+
+
+<h3>¿Cual es mi consola de videojuegos favorita?</h3>
+<div class="opciones-horizontales">
+
+
+    <label><input type="radio" id="console" name="console" value="PlayStation"> PlayStation</label>
+    <label><input type="radio" id="console" name="console" value="Xbox"> Xbox</label>
+    <label><input type="radio" id="console" name="console" value="Nintendo"> Nintendo</label>
+</div>
+
+
+
+<h3>Estas segura que tus respuestas son correctas?</h3>
+<div class="opciones-horizontales">
+
+    <label><input type="radio" id="sure" name="sure" value="Si"> Si, estoy segura</label>
+    <label><input type="radio" id="sure" name="sure" value="No"> No, no estoy segura</label> 
+</div>
+<br>
+<input class="form-button" type="button" value="Enviar">
+
+</form>
+</html>
+</body>
